@@ -13,6 +13,6 @@ public class ContaTerminal {
         System.out.print("Quanto será seu primeiro depósito: ");
         double saldo = scanner.nextDouble();
         System.out.printf("%nOlá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo R$%.2f já está disponível para saque%n", nome, agencia, numeroConta, saldo);
-
+        scanner.close();
        }
 }
